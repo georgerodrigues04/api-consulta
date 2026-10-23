@@ -1,0 +1,22 @@
+{
+  "name": "search",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/consultas/cnpj.ts",
+    "start": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "ky": "^2.2.0",
+    "tough-cookie": "^6.0.2",
+    "user-agents": "^2.1.216"
+  }
+}
